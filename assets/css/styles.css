@@ -1,0 +1,45 @@
+#imageText{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+#buildBtn{
+    height: 60px;
+    width: 200px;
+    background-color: #508BE4;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#headerText{
+        height: 79px;
+        width: 481px;
+        color: #000000;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 26px;
+}
+
+#torqHeader{
+        height: 94px;
+        width: 503px;
+        color: #000000;
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 94px;
+}
+
+#wabtecDesignSystem{
+        height: 30px;
+        width: 422px;
+        color: #508BE4;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 30px;
+}
