@@ -55,6 +55,7 @@ img{
         line-height: 94px;
 }
 
+
 #wabtecDesignSystem{
         height: 30px;
         width: 422px;
@@ -63,6 +64,7 @@ img{
         font-size: 15px;
         font-weight: bold;
         line-height: 30px;
+        margin-bottom: -15px;
 }
 
 
@@ -118,7 +120,14 @@ img{
         font-size: 15px;
         font-weight: bold;
         line-height: 30px;
+        cursor: pointer;
 }
+
+
+.torqHeader:hover {
+    text-decoration: underline;
+}
+
 
 .torqBody{
         height: 79px;
