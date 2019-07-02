@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v8/BngMUXZYTXPIvIBgJJSb6ufA5qWr4xCCQ_k.woff2) format('woff2');
+  }
+
 img{
     height: 100%;
     width: 100%;
@@ -60,6 +67,7 @@ img{
         font-size: 48px;
         font-weight: 900;
         line-height: 94px;
+        margin-bottom: 64px;
 }
 
 #bodySection div:nth-of-type(2){
@@ -73,7 +81,7 @@ img{
 
 .textOnImg{
         position: relative;
-        top: -565px;
+        top: 1.2em;
         left: 28.52px;
         height: 52px;
         width: 353px;
@@ -111,6 +119,7 @@ img{
         font-family: Roboto;
         font-size: 16px;
         line-height: 26px;
+        padding-top: 18px;
 }
 
 .learnMore{
@@ -119,11 +128,46 @@ img{
         font-family: Roboto;
         font-size: 16px;
         line-height: 26px;
+        padding-top: 17px;
 }
 
 .rectangle-copy {
 	height: 175px;
 	width: 700px;
 	border: 1px solid #979797;
-	background-color: #FCFCFC;
+    background-color: #FCFCFC;
+    border-left: 10px solid #508BE4
+}
+
+.rectangle {
+	height: 517px;
+	width: 1600px;
+	border: 1px solid #979797;
+	background-color: #D8D8D8;
+}
+
+.rectangle-copy-2 {
+	height: 360px;
+	width: 1600px;
+	background-color: #000000;
+}
+
+.support {
+	height: 112px;
+	width: 324px;
+	color: #508BE4;
+	font-family: 'Roboto Slab';
+	font-size: 85px;
+	font-weight: bold;
+    line-height: 112px;
+    padding-top: 68px;
+    padding-left: 500px;
+}
+
+.startBlock{
+    cursor: pointer;
+}
+
+#ecosystemSection{
+    padding-top: 126px;
 }
