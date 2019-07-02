@@ -16,6 +16,14 @@ img{
     left: 80px;
 }
 
+#wabtecLogo{
+    position: absolute;
+    left: 90px;
+    top: 20px;
+    height: 31.76px;	
+    width: 93.47px;	
+}
+
 #buildBtn{
     height: 60px;
     width: 200px;
@@ -139,7 +147,7 @@ img{
 }
 
 .rectangle {
-	height: 179.98px;
+	height: 250px;
 	width: 420px;
 	border: 1px solid #979797;
     background-color: #D8D8D8;
@@ -157,11 +165,11 @@ img{
 	width: 324px;
 	color: #508BE4;
 	font-family: 'Roboto Slab';
-	font-size: 85px;
+	font-size: 50px;
 	font-weight: bold;
     line-height: 112px;
     padding-top: 68px;
-    padding-left: 500px;
+    padding-left: 650px;
 }
 
 .startBlock{
@@ -185,8 +193,9 @@ img{
 }
 
 #footerSection{
-    margin-left: 0px;
-    margin-top: 50px;
+    margin-left: -80px;    
+    margin-top: 80px;
+    width: 110%;
 }
 
 @-webkit-keyframes scale-up-hor-left{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:0 0;transform-origin:0 0}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:0 0;transform-origin:0 0}}@keyframes scale-up-hor-left{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:0 0;transform-origin:0 0}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:0 0;transform-origin:0 0}}
@@ -194,4 +203,21 @@ img{
 .scale-up-hor-left {
 	-webkit-animation: scale-up-hor-left 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-hor-left 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.button-box {
+	height: 35px;
+	width: 145.5px;
+    border: 1.5px solid #508BE4;
+    margin-left: 15px;
+    color: #508BE4;
+    cursor: pointer;
+}
+
+.date{
+    color: #57657A;	font-family: Roboto;	font-size: 13px;	line-height: 26px; margin-bottom: 0px;
+}
+
+.updates{
+    margin-bottom: 20px;
 }
