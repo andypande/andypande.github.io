@@ -1,9 +1,17 @@
-@font-face {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/robotoslab/v8/BngMUXZYTXPIvIBgJJSb6ufA5qWr4xCCQ_k.woff2) format('woff2');
-  }
+
+
+.support {
+	height: 112px;
+	width: 324px;
+	color: #508BE4;
+    font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	font-weight: bold;
+    line-height: 112px;
+    padding-top: 68px;
+    padding-left: 650px;
+    cursor: pointer;
+}  
 
 img{
     height: 100%;
@@ -29,7 +37,7 @@ img{
     width: 200px;
     background-color: #508BE4;
     color: #FFFFFF;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -40,7 +48,7 @@ img{
         height: 79px;
         width: 481px;
         color: #000000;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         line-height: 26px;
 }
@@ -49,7 +57,7 @@ img{
         height: 94px;
         width: 503px;
         color: #000000;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 48px;
         font-weight: 900;
         line-height: 94px;
@@ -60,7 +68,7 @@ img{
         height: 30px;
         width: 422px;
         color: #508BE4;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 15px;
         font-weight: bold;
         line-height: 30px;
@@ -71,9 +79,9 @@ img{
 .bigHeader{
         height: 94px;
         color: #000000;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 48px;
-        font-weight: 900;
+        font-weight: 1000;
         line-height: 94px;
         margin-bottom: 20px;
 }
@@ -82,7 +90,7 @@ img{
         height: 78px;
         width: 857px;
         color: #000000;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         line-height: 26px;
 }
@@ -94,7 +102,7 @@ img{
         height: 52px;
         width: 353px;
         color: #000000;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 38px;
         font-weight: 500;
         line-height: 44px;
@@ -107,7 +115,7 @@ img{
 .lightDarkText{
         height: 65px;
         color: #000000;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         line-height: 26px;
         padding-top: 20px;
@@ -116,7 +124,7 @@ img{
 .torqHeader{
         height: 30px;
         color: #508BE4;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 15px;
         font-weight: bold;
         line-height: 30px;
@@ -132,16 +140,17 @@ img{
 .torqBody{
         height: 79px;
         color: #000000;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         line-height: 26px;
-        padding-top: 18px;
+        padding-top: 0px;
+        margin-top: -25px;
 }
 
 .learnMore{
         height: 26px;
         color: #508BE4;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         line-height: 26px;
         padding-top: 17px;
@@ -169,24 +178,14 @@ img{
 	background-color: #000000;
 }
 
-.support {
-	height: 112px;
-	width: 324px;
-	color: #508BE4;
-	font-family: 'Roboto Slab';
-	font-size: 50px;
-	font-weight: bold;
-    line-height: 112px;
-    padding-top: 68px;
-    padding-left: 650px;
-}
+
 
 .startBlock{
     cursor: pointer;
 }
 
 #ecosystemSection{
-    padding-top: 126px;
+    padding-top: 75px;
 }
 
 .new-class{
@@ -224,7 +223,7 @@ img{
 }
 
 .date{
-    color: #57657A;	font-family: Roboto;	font-size: 13px;	line-height: 26px; margin-bottom: 0px;
+    color: #57657A;	font-family: 'Roboto', sans-serif;	font-size: 13px;	line-height: 26px; margin-bottom: 0px;
 }
 
 .updates{
