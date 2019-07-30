@@ -8,40 +8,66 @@
     <title>Torq Design Prototype</title>
 
     <!-- All CSS Library Assets Needed for Website -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Slab&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <section id="welcomeSection" class="row">
-        <video autoplay muted loop id="myVideo" style="margin-left:300px; margin-bottom: 50px;">
+        <video class="col-md-12 hidden-xs" autoplay muted loop id="myVideo" style="margin-left:300px; margin-bottom: 50px;">
                     <source src="assets/images/crane_2.mp4" type="video/mp4">
         </video>
         <!-- <img id="headerImg" src="assets/images/background-header.png"> -->
 
-        <img id="wabtecLogo" src="assets/images/wabtec-logo.png">
-        <div id="imageText">
+        <img id="wabtecLogo" src="assets/images/logo.png">
+        <div id="imageText" class="hidden-xs">
             <div id="wabtecDesignSystem">WABTEC'S NEW DESIGN SYSTEM</div>
             <div id="torqHeader">TORQ DESIGN</div>
             <p id="headerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            <button id="buildBtn"><a href="https://wabtec.invisionapp.com/dsm/torq-design" style="color: white;" target="_blank">Start Building</a</button>
+            <button id="buildBtn"><a href="https://wabtec.invisionapp.com/dsm/torq-design" style="color: white;" target="_blank">Start Building</a></button>
         </div>
     </section>
 
-    <div style="padding-left:80px; padding-right: 50px;">
+    <div id="maindiv">
         <section id="bodySection" class="row">
-            <div class="col-md-5 bigHeader">
+            <div class="col-sm-12 bigHeader" style="text-align: center;">
                 Wabtec's Design System
             </div>
-            <div class="col-md-7">
+            <div class="col-sm-12" style="text-align: center;">
                     Torq is a human-focused design system crafted around user-feedback  and industry foresight. Our purpose and mission is to provide an adaptable and intuitive design system for creating world-class solutions in the transportation industry. Through quicker workflows, streamlined communication techniques and an emphasis on safety, Torq is a service that enables.             </div>
 
         </section>
 
+        <section id="torqQualities" class="row col3-grid">
+            <div class="col-sm-4">
+                <span class="another-rect"></span>
+                <span class="torqHeader">USER CENTERED</span>
+                    <p>Torq Design was created with the user in mind.</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="another-rect"></span>
+                <span class="torqHeader">RESEARCH DRIVEN</span>
+                <p>Having concise, directional research can influence implementation and design.</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="another-rect"></span>
+                <span class="torqHeader">INNOVATIVE</span>
+                <p>The modernization of transportation is young, so it is vital to keep originating.</p>
+            </div>
 
-        <section id="lightDarkSection" class="row">
-            <div class="col-md-6" style="height: 500px;">
+        </section>
+
+        <section id="laptopDisplay" class="row">
+            <div class="mask">
+                <img src="assets/images/laptop.png" class="structure-top-nav-copy-39">
+
+            </div>
+            
+        </section>
+        <!-- <section id="lightDarkSection" class="row">
+            <div class="col-sm-6" style="height: 500px;">
                 <a href="https://wabtec.invisionapp.com/dsm/torq-design/torq-design-light-ui" target="_blank">
                     <div id="lightUIBlock">
                         <span id="lightUIHeader" class="textOnImg">Start with Light UI</span>
@@ -49,7 +75,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-6">
                 <a href="https://wabtec.invisionapp.com/dsm/torq-design/torq-design-dark-ui" target="_blank">
                     <div id="darkUIBlock">
                         <span id="darkUIHeader" class="textOnImg">Start with Dark UI</span>
@@ -57,74 +83,91 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 lightDarkText">
+            <div class="col-sm-6 lightDarkText">
                     Explore Torq’s collection of designs and get going with the UI that fits with your users’ environment.
             </div>
-            <div class="col-md-6 lightDarkText">
+            <div class="col-sm-6 lightDarkText">
                     Explore Torq’s collection of designs and get going with the UI that fits with your users’ environment.
             </div>
 
-        </section>
+        </section> -->
 
-        <section id="ecosystemSection">
-            <div class="col-md-12 bigHeader" style="padding-left:0px;">Torq Ecosystem</div>
+        <!-- <section id="ecosystemSection">
+            <div class="col-sm-12 bigHeader" style="padding-left:0px;">Torq Ecosystem</div>
             
             <div class="row" style="padding-bottom: 67px;">
-                <div class="row col-md-6" style="padding-top: 50px;">
-                    <span class="col-md-12 torqHeader">TORQ DESIGN</span>
-                    <span class="col-md-8 torqBody"> Library of design guidelines, layouts, icons, typography, and components</span>
+                <div class="row col-sm-6" style="padding-top: 50px;">
+                    <span class="col-sm-12 torqHeader">TORQ DESIGN</span>
+                    <span class="col-sm-8 torqBody"> Library of design guidelines, layouts, icons, typography, and components</span>
                 </div>
-                <div class="col-md-6 rectangle-copy"></div>
+                <div class="col-sm-6 rectangle-copy"></div>
             </div>
 
             <div class="row" style="padding-bottom: 67px;">
-                <div class="row col-md-6" style="padding-top: 50px;">
-                    <span class="col-md-12 torqHeader">TORQ CLOUD</span>
-                    <span class="col-md-8 torqBody"> App development and deployment platform based on stable, readily available and enterprise supported tech stack</span>
+                <div class="row col-sm-6" style="padding-top: 50px;">
+                    <span class="col-sm-12 torqHeader">TORQ CLOUD</span>
+                    <span class="col-sm-8 torqBody"> App development and deployment platform based on stable, readily available and enterprise supported tech stack</span>
                 </div>
-                <div class="col-md-6 rectangle-copy"></div>
+                <div class="col-sm-6 rectangle-copy"></div>
            </div>
 
            <div class="row" style="padding-bottom: 67px;">
-                <div class="row col-md-6" style="padding-top: 50px;">
-                    <span class="col-md-12 torqHeader">TORQ ON PREM</span>
-                    <span class="col-md-8 torqBody"> Cloud technologies on customer premise to allow for a faster, more secure environment</span>
+                <div class="row col-sm-6" style="padding-top: 50px;">
+                    <span class="col-sm-12 torqHeader">TORQ ON PREM</span>
+                    <span class="col-sm-8 torqBody"> Cloud technologies on customer premise to allow for a faster, more secure environment</span>
                 </div>
-                <div class="col-md-6 rectangle-copy"></div>
+                <div class="col-sm-6 rectangle-copy"></div>
             </div>
 
+        </section> -->
+
+
+        <section id="resourcesSection" class="row col3-grid">
+                <div class="col-sm-12 bigHeader" id='resourceHeader'>Resources</div>
+                <div class="col-sm-4"><span class="another-rect" style="background: white; border: none;"><img src="assets/images/dsm.png"></span>
+                    <span class="torqHeader">DSM</span><p>Access the full library of design components in the Design System Manager.</p></div>
+                <div class="col-sm-4"><span class="another-rect" style="background: white; border: none;"><img src="assets/images/gitlab.png"></span></span><span class="torqHeader">GITLAB</span><p>View the Torq Design source and documentation on Gitlab.</p></div>
+                <div class="col-sm-4"><span class="another-rect" style="background: white; border: none;"><img src="assets/images/slack.png"></span></span><span class="torqHeader">SLACK</span><p>Have a question on designing or developing with Torq? Use our Slack channel to connect with the GE Transportation community to get it answered.</p></div>
+
         </section>
 
-
-        <section id="resourcesSection" class="row">
-                <div class="col-md-12 bigHeader">Resources</div>
-                <div class="col-md-4"><span class="torqHeader">DSM</span><p>Access the full library of design components in the Design System Manager.</p></div>
-                <div class="col-md-4"><span class="torqHeader">GITLAB</span><p>View the Torq Design source and documentation on Gitlab.</p></div>
-                <div class="col-md-4"><span class="torqHeader">SLACK</span><p>Have a question on designing or developing with Torq? Use our Slack channel to connect with the GE Transportation community to get it answered.</p></div>
-
+        <section id="articlesSection" class="row col3-grid" style="padding-bottom: 111px;">
+                <div class="col-sm-12 bigHeader">Torq Articles</div>
+                <div class="col-sm-4"><div class="rectangle"><img src="assets/images/torq-cloud@1x.png"></div><span class="torqHeader rectText">TORQ CLOUD IS HERE</span><p>Discover how to use Torq Cloud with your applications.</p></div>
+                <div class="col-sm-4"><div class="rectangle"><img src="assets/images/new-tms.png"></div><span class="torqHeader rectText">THE NEW TMS</span><p>Check out how TMS transitioned to Torq Design.</p></div>
+                <div class="col-sm-4"><div class="rectangle"><img src="assets/images/data.png"></div><span class="torqHeader rectText">HOW TO USE DATA VISUALIZATION</span><p>Read the Do’s & Dont’s when using data.</p></div>
         </section>
 
-        <section id="articlesSection" class="row">
-                <div class="col-md-12 bigHeader">Torq Articles</div>
-                <div class="col-md-4"><div class="rectangle"><img src="assets/images/torq-cloud@1x.png"></div><span class="torqHeader rectText">TORQ CLOUD IS HERE</span><p>Discover how to use Torq Cloud with your applications.</p></div>
-                <div class="col-md-4"><div class="rectangle"><img src="assets/images/new-tms.png"></div><span class="torqHeader rectText">THE NEW TMS</span><p>Check out how TMS transitioned to Torq Design.</p></div>
-                <div class="col-md-4"><div class="rectangle"><img src="assets/images/data.png"></div><span class="torqHeader rectText">HOW TO USE DATA VISUALIZATION</span><p>Read the Do’s & Dont’s when using data.</p></div>
-        </section>
-
-        <section id="articlesSection" class="row">
-                <div class="col-md-12 bigHeader">What's New</div>
+        <!-- <section id="articlesSection" class="row">
+                <div class="col-sm-12 bigHeader">What's New</div>
                 
-                <div class="col-md-12 updates"><p class="date">July 3, 2019</p><span class="torqHeader">TORQ DESIGN</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
-                <div class="col-md-12 updates"><p class="date">June 28, 2019</p><span class="torqHeader">TORQ DESIGN</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
-                <div class="col-md-12 updates"><p class="date">June 22, 2019</p><span class="torqHeader">TORQ DESIGN</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                <div class="col-sm-12 updates"><p class="date">July 3, 2019</p><span class="torqHeader">TORQ DESIGN</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                <div class="col-sm-12 updates"><p class="date">June 28, 2019</p><span class="torqHeader">TORQ DESIGN</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                <div class="col-sm-12 updates"><p class="date">June 22, 2019</p><span class="torqHeader">TORQ DESIGN</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                 <button class="button-box">Read All Updates</button>
 
+        </section> -->
+        <section id="updates" class="row">
+            <div class="col-xs-12"><img src="assets/images/whats-new.png"></div>
+            <p class="latestUpdates">Click here for latest Updates</p>
         </section>
 
-        <section id="footerSection" class="row rectangle-copy-2">
+        <section id="linksTwo" class="row" style="height: 200px; margin-top: 100px;">
+            <div class="col-xs-6 col-md-3"><img src="assets/images/wabtec-logo.png"></div>
+            <div class="col-xs-6 col-md-1"><a href="#">Contact Us</a></div>
+            <div class="col-xs-6 col-md-1"><a href="#">Contribute</a></div>
+            <div class="col-xs-6 col-md-1"><a href="#">Privacy</a></div>
+            <div class="col-xs-6 col-md-1"><a href="#">DSM</a></div>
+            <div class="col-xs-6 col-md-1"><a href="#">Gitlab</a></div>
+            <div class="col-xs-6 col-md-1"><a href="#">Twitter</a></div>
+            <div class="col-xs-6 col-md-1"><a href="#">Medium</a></div>
+            <div class="col-xs-6 col-md-1"><a href="#">wabtec.com</a></div>
+        </section>
+
+        <!-- <section id="footerSection" class="row rectangle-copy-2">
             <span class="support">Support</span>
 
-        </section>
+        </section> -->
     </div>
 </body>
 </html>
