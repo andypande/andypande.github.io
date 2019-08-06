@@ -21,7 +21,9 @@
         </video>
         <!-- <img id="headerImg" src="assets/images/background-header.png"> -->
 
-        <img id="wabtecLogo" src="assets/images/logo.png">
+        <img class="hidden-xs" id="wabtecLogo" src="assets/images/logo.png">
+        <div style="text-align: center; padding-top: 50px;" class="hidden-sm hidden-md hidden-lg"><img id="wabtecLogoMobile" src="assets/images/logo.png"></div>
+
         <div id="imageText" class="hidden-xs">
             <div id="wabtecDesignSystem">WABTEC'S NEW DESIGN SYSTEM</div>
             <div id="torqHeader">TORQ DESIGN</div>
@@ -33,26 +35,40 @@
     <div id="maindiv">
         <section id="bodySection" class="row">
             <div class="col-sm-12 bigHeader" style="text-align: center;">
+                Wabtec's New Design System
+            </div>
+            <div class="col-sm-12 hidden-xs" style="text-align: center;">
+                Torq is a human-focused design system crafted around user-feedback  and industry foresight. Our purpose and mission is to provide an adaptable and intuitive design system for creating world-class solutions in the transportation industry. Through quicker workflows, streamlined communication techniques and an emphasis on safety, Torq is a service that enables.
+            </div>
+            <div class="col-xs-12 learn-and-experience hidden-sm hidden-md hidden-lg" style="text-align: center;">
+                Learn and experience everything about our new design system that makes product teams workflows flexible and collaborative for everyone.
+            </div>
+            <div style="text-align: center; padding-top: 16px; margin-top: 150px;"><button id="buildBtn" class="hidden-sm hidden-md hidden-lg"><a href="https://wabtec.invisionapp.com/dsm/torq-design" style="color: white;" target="_blank">Start Building</a></button></div>
+        </section>
+
+        <img class="hidden-sm hidden-md hidden-lg" style="position: absolute; top: 250px; z-index: -100;" src="assets/images/mobile/background-header.png">
+        <div class="mobileTorqDescription hidden-sm hidden-md hidden-lg" style="text-align: center;">
+            <div class="col-xs-12 wabtec-s-design-syst">
                 Wabtec's Design System
             </div>
-            <div class="col-sm-12" style="text-align: center;">
-                    Torq is a human-focused design system crafted around user-feedback  and industry foresight. Our purpose and mission is to provide an adaptable and intuitive design system for creating world-class solutions in the transportation industry. Through quicker workflows, streamlined communication techniques and an emphasis on safety, Torq is a service that enables.             </div>
-
-        </section>
+            <div class="col-xs-12 torq-is-a-human-focu">
+                Torq is a human-focused design system crafted around user-feedback  and industry foresight. Our purpose and mission is to provide an adaptable and intuitive design system for creating world-class solutions in the transportation industry. Through quicker workflows, streamlined communication techniques and an emphasis on safety, Torq is a service that enables.
+            </div>
+        </div>
 
         <section id="torqQualities" class="row col3-grid">
             <div class="col-sm-4">
-                <span class="another-rect"></span>
+                <span class="col-xs-12"><img src="assets/images/mobile/Group 2.png"></span>
                 <span class="torqHeader">USER CENTERED</span>
                     <p>Torq Design was created with the user in mind.</p>
             </div>
-            <div class="col-sm-4">
-                <span class="another-rect"></span>
+            <div class="col-sm-4 torqQ">
+                <span class="col-xs-12"><img src="assets/images/mobile/reearch driven.png"></span>
                 <span class="torqHeader">RESEARCH DRIVEN</span>
                 <p>Having concise, directional research can influence implementation and design.</p>
             </div>
-            <div class="col-sm-4">
-                <span class="another-rect"></span>
+            <div class="col-sm-4 torqQ">
+                <span class="col-xs-12"><img src="assets/images/mobile/innovative.png"></span>
                 <span class="torqHeader">INNOVATIVE</span>
                 <p>The modernization of transportation is young, so it is vital to keep originating.</p>
             </div>
@@ -124,18 +140,18 @@
 
         <section id="resourcesSection" class="row col3-grid">
                 <div class="col-sm-12 bigHeader" id='resourceHeader'>Resources</div>
-                <div class="col-sm-4"><span class="another-rect" style="background: white; border: none;"><img src="assets/images/dsm.png"></span>
+                <div class="col-sm-4 indRes"><span class="another-rect" style="background: white; border: none;"><img src="assets/images/dsm.png"></span>
                     <span class="torqHeader">DSM</span><p>Access the full library of design components in the Design System Manager.</p></div>
-                <div class="col-sm-4"><span class="another-rect" style="background: white; border: none;"><img src="assets/images/gitlab.png"></span></span><span class="torqHeader">GITLAB</span><p>View the Torq Design source and documentation on Gitlab.</p></div>
-                <div class="col-sm-4"><span class="another-rect" style="background: white; border: none;"><img src="assets/images/slack.png"></span></span><span class="torqHeader">SLACK</span><p>Have a question on designing or developing with Torq? Use our Slack channel to connect with the GE Transportation community to get it answered.</p></div>
+                <div class="col-sm-4 indRes"><span class="another-rect" style="background: white; border: none;"><img src="assets/images/gitlab.png"></span></span><span class="torqHeader">GITLAB</span><p>View the Torq Design source and documentation on Gitlab.</p></div>
+                <div class="col-sm-4 indRes"><span class="another-rect" style="background: white; border: none;"><img src="assets/images/slack.png"></span></span><span class="torqHeader">SLACK</span><p>Have a question on designing or developing with Torq? Use our Slack channel to connect with the GE Transportation community to get it answered.</p></div>
 
         </section>
 
-        <section id="articlesSection" class="row col3-grid" style="padding-bottom: 111px;">
+        <section id="articlesSection" class="row col3-grid">
                 <div class="col-sm-12 bigHeader">Torq Articles</div>
-                <div class="col-sm-4"><div class="rectangle"><img src="assets/images/torq-cloud@1x.png"></div><span class="torqHeader rectText">TORQ CLOUD IS HERE</span><p>Discover how to use Torq Cloud with your applications.</p></div>
-                <div class="col-sm-4"><div class="rectangle"><img src="assets/images/new-tms.png"></div><span class="torqHeader rectText">THE NEW TMS</span><p>Check out how TMS transitioned to Torq Design.</p></div>
-                <div class="col-sm-4"><div class="rectangle"><img src="assets/images/data.png"></div><span class="torqHeader rectText">HOW TO USE DATA VISUALIZATION</span><p>Read the Do’s & Dont’s when using data.</p></div>
+                <div class="col-sm-4"><div class="rectangle"><img src="assets/images/torq-cloud@1x.png"></div><span class="torqHeader rectText">TORQ CLOUD IS HERE</span><p class="articleMobile">Discover how to use Torq Cloud with your applications.</p></div>
+                <div class="col-sm-4"><div class="rectangle"><img src="assets/images/new-tms.png"></div><span class="torqHeader rectText">THE NEW TMS</span><p class="articleMobile">Check out how TMS transitioned to Torq Design.</p></div>
+                <div class="col-sm-4"><div class="rectangle"><img src="assets/images/data.png"></div><span class="torqHeader rectText">HOW TO USE DATA VISUALIZATION</span><p class="articleMobile">Read the Do’s & Dont’s when using data.</p></div>
         </section>
 
         <!-- <section id="articlesSection" class="row">
@@ -147,21 +163,26 @@
                 <button class="button-box">Read All Updates</button>
 
         </section> -->
-        <section id="updates" class="row">
+        <section id="updates" class="row hidden-xs">
             <div class="col-xs-12"><img src="assets/images/whats-new.png"></div>
             <p class="latestUpdates">Click here for latest Updates</p>
         </section>
 
+        <div style="text-align: center;" class="hidden-sm hidden-md hidden-lg">
+            <span class="updateMobile">Click here for Latest Update</span>
+            <img src="assets/images/mobile/whats-new.png">
+        </div>
+
         <section id="linksTwo" class="row" style="height: 200px; margin-top: 100px;">
-            <div class="col-xs-6 col-md-3"><img src="assets/images/wabtec-logo.png"></div>
-            <div class="col-xs-6 col-md-1"><a href="#">Contact Us</a></div>
-            <div class="col-xs-6 col-md-1"><a href="#">Contribute</a></div>
-            <div class="col-xs-6 col-md-1"><a href="#">Privacy</a></div>
-            <div class="col-xs-6 col-md-1"><a href="#">DSM</a></div>
-            <div class="col-xs-6 col-md-1"><a href="#">Gitlab</a></div>
-            <div class="col-xs-6 col-md-1"><a href="#">Twitter</a></div>
-            <div class="col-xs-6 col-md-1"><a href="#">Medium</a></div>
-            <div class="col-xs-6 col-md-1"><a href="#">wabtec.com</a></div>
+            <div class="col-xs-12 col-md-3"><img src="assets/images/wabtec-logo.png"></div>
+            <div class="col-xs-12 col-md-1"><a href="#">Contact Us</a></div>
+            <div class="col-xs-12 col-md-1"><a href="#">Contribute</a></div>
+            <div class="col-xs-12 col-md-1"><a href="#">Privacy</a></div>
+            <div class="col-xs-12 col-md-1"><a href="#">DSM</a></div>
+            <div class="col-xs-12 col-md-1"><a href="#">Gitlab</a></div>
+            <div class="col-xs-12 col-md-1"><a href="#">Twitter</a></div>
+            <div class="col-xs-12 col-md-1"><a href="#">Medium</a></div>
+            <div class="col-xs-12 col-md-1"><a href="#">wabtec.com</a></div>
         </section>
 
         <!-- <section id="footerSection" class="row rectangle-copy-2">

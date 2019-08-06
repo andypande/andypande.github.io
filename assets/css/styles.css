@@ -18,19 +18,20 @@ p{
     cursor: pointer;
 }  
 
-
 #imageText{
     position: absolute;
     top: 300px;
     left: 80px;
 }
 
+#laptopDisplay{
+    margin-top: 120px;
+}
+
 #wabtecLogo{
     position: absolute;
     left: 90px;
     top: 20px;
-    height: 25px;
-    width: 100px;
 }
 
 #articlesSection img{
@@ -260,12 +261,17 @@ p{
 
 #articlesSection{
     margin-top: 50px;
+    padding-bottom: 111px;
 }
 
 #footerSection{
     margin-left: -80px;    
     margin-top: 80px;
     width: 110%;
+}
+#torqQualities img{
+    width: 94px;
+    height: 94px;
 }
 
 @-webkit-keyframes scale-up-hor-left{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:0 0;transform-origin:0 0}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:0 0;transform-origin:0 0}}@keyframes scale-up-hor-left{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:0 0;transform-origin:0 0}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:0 0;transform-origin:0 0}}
@@ -306,7 +312,7 @@ p{
             
     }
     #maindiv{
-        padding-left: 50px;
+        padding-left: 0px;
         padding-right: 0px;
     }
     .structure-top-nav-copy-39{
@@ -314,22 +320,115 @@ p{
     }
     .mask{
         height: 200px;
+        margin-top: 40px;
     }
     .bigHeader{
         font-size: 30px;
         line-height: 30px;
         height: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     #resourcesSection{
         margin-top: 50px;
     }
     #resourceHeader{
-        margin-top: 0px;
+        color: black;
     }
     #bodySection div:nth-of-type(2){
         margin-left: 0px;
     }
     #bodySection{
-        padding-top: 100px;
+        padding-top: 27px;
+    }
+    .bigHeader {
+        color: black;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 41px;
+        text-align: center;
+    }
+    .learn-and-experience {
+        height: 124px;
+        margin-left: 11%;
+        width: 320px;
+        color: #000000;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .wabtec-s-design-syst {
+        height: 123px;
+        color: #000000;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 41px;
+        text-align: center;
+        margin-top: 190px;
+    }
+    .torq-is-a-human-focu {
+        color: #000000;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        width: 293px;
+        margin-left: 12%;
+    }
+    #torqQualities{
+        margin-top: 700px;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .torqQ{
+        padding-top: 60px;
+    }
+    #resourcesSection{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 16px;
+    }
+    .structure-top-nav-copy-39{
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 0px;
+    }
+    .indRes{
+        margin-top: 50px;
+    }
+    .articleMobile{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 80px;
+    }
+    #linksTwo{
+        text-align: center;
+        color: black !important;
+        font-size: 16px;
+    }
+    #linksTwo div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .updateMobile{
+        position: relative;
+            top: 160px;
+            height: 90px;
+            width: 262px;
+            color: #FFFFFF;
+            font-family: Roboto;
+            font-size: 36px;
+            font-weight: 900;
+            line-height: 45px;
+            text-align: center;
+    }
+    #articlesSection{
+        padding-bottom: 0px;
+        margin-bottom: -50px;
     }
 }
