@@ -377,7 +377,8 @@ p{
         text-align: center;
         float: inherit;
         width: 293px;
-        margin-left: 12%;
+        margin-left: auto;
+        margin-right: auto;
     }
     #torqQualities{
         margin-top: 70px;
